@@ -1,0 +1,31 @@
+SLURM submit directory: /home/amolla/ondemand/data/sys/myjobs/projects/default/1
+Current working directory: /home/amolla/ondemand/data/sys/myjobs/projects/default/1
+Loading mamba module...
+Activating conda environment: MOLLA
+Python version:
+Python 3.13.5
+GPU available:
+Sun Dec 14 12:19:36 2025       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.95.05              Driver Version: 580.95.05      CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100-SXM4-80GB          On  |   00000000:41:00.0 Off |                    0 |
+| N/A   32C    P0             83W /  500W |       0MiB /  81920MiB |      0%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Running DCGAN training script...
+Total L1-L2 pairs found: 9
+Training, testing, visualization, metrics, and loss curve saving complete.
+CGAN_LandSat job finished.
